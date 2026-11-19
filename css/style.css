@@ -283,6 +283,10 @@ footer p:first-child {
     padding: 30px;
     border-radius: 12px;
     flex: 1;
+    transition: transform 0.3s ease;
+}
+.capture-card:hover {
+    transform: scale(1.05);
 }
 .capture-card h3 {
     font-family: 'Playfair Display', serif;
@@ -294,4 +298,135 @@ footer p:first-child {
     font-size: 16px;
     line-height: 1.7;
     color: #49352B;
+}
+.photography-table {
+    padding: 80px 10%;
+        width: 100%;
+    border-collapse: collapse;
+}
+.photography-table h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: #49352B;
+    margin-bottom: 20px;
+}.photography-table th,
+.photography-table td {
+    padding: 15px;
+    border: 1px solid #B76E4B;
+    text-align: left;
+}
+.photography-table th {
+    background-color: #49352B;
+    color: #FAF3E8;
+    font-weight: 600;
+}
+.photography-table tr:nth-child(even) {
+    background-color: #E8D5C0;
+}
+.photography-philosophy {
+    padding: 80px 10%;
+    text-align: center;
+}
+.photography-philosophy h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: #49352B;
+    margin-bottom: 20px;
+}
+
+.photography-philosophy p {
+    font-size: 17px;
+    line-height: 1.8;
+    color: #49352B;
+    max-width: 800px;
+    margin: 0 auto 30px;
+}
+.photography-philosophy a {
+    display: inline-block;
+    padding: 12px 25px;
+    border-radius:15px;
+    background-color: #B76E4B;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.photography-habits {
+    padding: 80px 10%;
+    background-color: #E8D5C0;
+    transition: background-color 0.3s ease;
+}
+.photography-philosophy a:hover {
+    background-color: #49352B;
+}
+.photography-habits h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: #49352B;
+    margin-bottom: 20px;
+}
+.photography-habits ul {
+    padding-left: 25px;
+}
+.photography-habits li {
+    font-size: 17px;
+    line-height: 2;
+    color: #49352B;
+}
+.photography-steps {
+    padding: 80px 10%;
+    text-align: center;
+    background-color: #E8D5C0;
+}
+.photography-steps h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: #49352B;
+    margin-bottom: 20px;
+}
+.photography-steps p {
+    font-size: 17px;
+    line-height: 1.8;
+    color: #49352B;
+    max-width: 750px;
+    margin: 0 auto 30px;
+}
+.photography-steps ol {
+    padding-left: 25px;
+    max-width: 750px;
+    margin: 0 auto;
+    text-align: left;
+}
+.photography-steps li {
+    font-size: 17px;
+    line-height: 2;
+    color: #49352B;
+}
+footer {
+    padding: 40px 10%;
+    background-color: #49352B;
+    color: #FAF3E8;
+    text-align: center;
+    border-top: 3px solid #E9A477;
+}
+
+footer p {
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+footer p:first-child {
+    margin-bottom: 10px;
+}
+.back-home {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #B76E4B;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
 }
