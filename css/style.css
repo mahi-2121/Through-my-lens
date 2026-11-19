@@ -1,3 +1,9 @@
+/* this is css style for ma homepage */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     background-color: #FAF3E8;
     color: #49352B;
@@ -197,4 +203,95 @@ footer {
 }
 footer p:first-child {
     margin-bottom: 10px;
+}
+
+/* this is css for my home page */
+.about-hero {
+    padding: 100px 10%;
+    background-color: #E8D5C0;
+    text-align: center;
+}
+.about-hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #49352B;
+}
+.about-hero p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #49352B;
+    max-width: 700px;
+    margin: 0 auto;
+}
+.photography-story {
+    padding: 80px 10%;
+}
+.photography-story h2,.more-than-pictures h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: #49352B;
+    margin-bottom: 20px;
+}
+.photography-story p,.more-than-pictures p {
+    font-size: 17px;
+    line-height: 1.8;
+    color: #49352B;
+    margin-bottom: 20px;
+}
+.more-than-pictures {
+    padding: 80px 10%;
+    background-color: #E8D5C0;
+}
+
+.more-than-pictures blockquote {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    font-style: italic;
+    line-height: 1.6;
+    color: #B76E4B;
+    border-left: 4px solid #B76E4B;
+    padding-left: 20px;
+    margin: 30px 0;
+}
+.things-i-capture {
+    padding: 80px 10%;
+}
+.things-i-capture h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: #49352B;
+    margin-bottom: 20px;
+}
+.capture-intro {
+    font-size: 17px;
+    line-height: 1.8;
+    color: #49352B;
+    margin-bottom: 40px;
+    max-width: 750px;
+}
+.capture-categories{
+    display: flex;
+    gap: 25px;
+  
+}
+.capture-card {
+    background-color: #E8D5C0;
+    padding: 30px;
+    border-radius: 12px;
+    flex: 1;
+}
+.capture-card h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    color: #49352B;
+    margin-bottom: 15px;
+}
+.capture-card p {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #49352B;
 }
