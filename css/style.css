@@ -925,3 +925,10 @@ nav a:hover {
     color: #111010;
 }
 
+
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
